@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - govt. iti santor,charkhi dadri</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .contact-container {
+            max-width: 1100px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contact-info {
+            flex: 1;
+            padding: 30px;
+            background-color: #0056b3;
+            color: #fff;
+            border-radius: 10px;
+            min-width: 300px;
+        }
+        .contact-info h2 {
+            margin-top: 0;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+        }
+        .info-item {
+            margin-bottom: 25px;
+        }
+        .info-item h4 {
+            margin: 0 0 5px 0;
+            color: #ffcc00;
+        }
+        .contact-form-section {
+            flex: 2;
+            padding: 30px;
+            min-width: 300px;
+        }
+        .contact-form-section h2 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .submit-btn {
+            background-color: #0056b3;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #003d80;
+        }
+        .map-container {
+            width: 100%;
+            margin-top: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 300px;
+            background: #ddd;
+        }
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-container">
+    <div class="contact-info">
+        <h2>CONTACT</h2>
+        <p>We'd love to help you. You can connect with us through the following methods:</p>
+        
+        <div class="info-item">
+            <h4>Address:</h4>
+            <p>Government iti Santor , Charkhi dadri , Haryana<br>
+            district : Charkhi dadri,<br>
+            Pin-Code: 127306 , india</p>
+        </div>
+
+        <div class="info-item">
+            <h4>Phone Number:</h4>
+            <p>+91 98XXX-XXXXX<br>+91 0123-456789</p>
+        </div>
+
+        <div class="info-item">
+            <h4>E-mail:</h4>
+            <p>santor.giti@gmail.com
+        </div>
+
+        <div class="info-item">
+            <h4>Office Time:</h4>
+            <p>Monday to Friday: 9:00 AM - 5:00 PM<br>Sataurday-Sunday : Closed</p>
+        </div>
+    </div>
+
+    <div class="contact-form-section">
+        <h2>Inquiry Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label>Your Name:</label>
+                <input type="text" name="name" placeholder="Please enter your name....." required>
+            </div>
+            <div class="form-group">
+                <label>Mobile Number:</label>
+                <input type="tel" name="phone" placeholder="91XXXXXXXX" required>
+            </div>
+            <div class="form-group">
+                <label>Which trade do you like?</label>
+                <select name="trade">
+                    <option value="electrician">Electrician</option>
+                    <option value="fitter">Copa</option>
+                    <option value="welder">Welder</option>
+                    <option value="copa">Fitter</option>
+                    <option value="copa">Plumber</option>
+                    <option value="other">Any Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Your question:</label>
+                <textarea name="message" rows="5" placeholder="Please ask your question..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send me</button>
+        </form>
+    </div>
+
+    <div class="map-container">
+        <div style="text-align: center; line-height: 300px; color: #666;">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.52552120724!2d76.40979667457181!3d28.60704888523919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3912824c829f62bb%3A0x3931c4c7abcaada0!2sI.T.I%20Santor!5e1!3m2!1sen!2sin!4v1778405163099!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

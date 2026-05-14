@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Making Trade - ITI</title>
+    <style>
+        :root {
+            --primary-color: #e91e63; /* Pinkish tone for fashion/dress making */
+            --dark-color: #2c3e50;
+            --light-bg: #f9f9f9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: var(--light-bg);
+        }
+
+        .header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("dress making image.png");
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -50px auto 50px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        h2 { color: var(--primary-color); border-bottom: 2px solid #eee; padding-bottom: 10px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-left: 5px solid var(--primary-color);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--dark-color);
+        }
+
+        .btn-back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: var(--dark-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn-back:hover { background-color: var(--primary-color); }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+
+        @media (max-width: 600px) {
+            .container { margin: 20px; padding: 20px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+         <h1>Dress Making Trade</h1>
+         <p>“Creative mind + Skilled hands = Perfect Dress Making.”</p>
+         
+   
+    </header>
+
+    <div class="container">
+        <h2>ट्रेड का परिचय (Trade Overview)</h2>
+        <p>ड्रेस मेकिंग ट्रेड उन स्टूडेंट्स के लिए बेहतरीन है जो कपड़ों की डिजाइनिंग, सिलाई और गारमेंट कंस्ट्रक्शन में रुचि रखते हैं। इस कोर्स में आपको बेसिक सिलाई से लेकर मॉडर्न फैशन डिजाइनिंग तक की ट्रेनिंग दी जाती है।</p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>कोर्स की जानकारी</h3>
+                <p><span class="highlight">अवधि:</span> 1 वर्ष (2 सेमेस्टर)</p>
+                <p><span class="highlight">योग्यता:</span> 8वीं या 10वीं पास</p>
+                <p><span class="highlight">प्रमाणन:</span> NCVT / SCVT</p>
+            </div>
+            <div class="card">
+                <h3>मुख्य कौशल (Skills Learned)</h3>
+                <ul>
+                    <li>कपड़ों की माप और कटिंग</li>
+                    <li>विभिन्न प्रकार की सिलाई मशीनें चलाना</li>
+                    <li>एंब्रॉयडरी और फिनिशिंग</li>
+                    <li>पैटर्न मेकिंग और डिजाइनिंग</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px;">
+            <h2>करियर के अवसर (Career Opportunities)</h2>
+            <p>यह कोर्स पूरा करने के बाद आप निम्नलिखित क्षेत्रों में काम कर सकते हैं:</p>
+            <ul>
+                <li><strong>Garment Industry:</strong> एक्सपोर्ट हाउस में टेलर या सुपरवाइजर।</li>
+                <li><strong>Self-Employment:</strong> अपना खुद का बुटीक या सिलाई सेंटर खोलना।</li>
+                <li><strong>Fashion Designer Assistant:</strong> किसी बड़े डिजाइनर के साथ काम करना।</li>
+                <li><strong>Instructor:</strong> किसी भी प्राइवेट संस्थान में सिलाई टीचर बनना।</li>
+            </ul>
+        </div>
+
+        <center>
+            <a href="index.html" class="btn-back">मुख्य पेज पर वापस जाएं</a>
+        </center>
+    </div>
+
+</body>
+</html>

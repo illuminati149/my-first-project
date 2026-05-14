@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumber Trade Detail - ITI</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-light: #ecf0f1;
+            --bg-light: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: var(--bg-light);
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url("plumber image.png");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1100px;
+            margin: -50px auto 50px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--accent-color);
+            display: inline-block;
+            margin-bottom: 25px;
+            padding-bottom: 5px;
+        }
+
+        /* Grid for Info */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .info-box {
+            background: #fff;
+            border-left: 5px solid var(--accent-color);
+            padding: 20px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .info-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .info-box i {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+        }
+
+        /* List Styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "\f00c"; /* FontAwesome checkmark */
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+        }
+
+        /* CTA Button */
+        .apply-btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: background 0.3s;
+        }
+
+        .apply-btn:hover {
+            background: #2980b9;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .container { margin-top: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div>
+            <h1>Plumber Trade (प्लमबर)</h1>
+            <p>ITI Professional Training Course</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2 class="section-title">ट्रेड का विवरण (About Trade)</h2>
+            <p>ITI प्लम्बर कोर्स एक बहुत ही मांग वाला स्किल-बेस्ड कोर्स है। इसमें छात्रों को पानी की पाइपलाइनों, ड्रेनेज सिस्टम, सैनिटरी फिटिंग और गैस पाइपलाइनों की स्थापना और मरम्मत की ट्रेनिंग दी जाती है।</p>
+
+            <div class="info-grid">
+                <!-- Course Duration -->
+                <div class="info-box">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>कोर्स की अवधि</h3>
+                    <p>1 साल (2 सेमेस्टर)</p>
+                </div>
+
+                <!-- Eligibility -->
+                <div class="info-box">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>योग्यता</h3>
+                    <p>10वीं पास (किसी भी मान्यता प्राप्त बोर्ड से)</p>
+                </div>
+
+                <!-- Career Options -->
+                <div class="info-box">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>करियर के अवसर</h3>
+                    <p>सरकारी विभाग (Railways, PWD), कंस्ट्रक्शन कंपनी, और अपना खुद का बिज़नेस।</p>
+                </div>
+            </div>
+
+            <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;" class="info-grid">
+                <div>
+                    <h3 class="section-title">आप क्या सीखेंगे?</h3>
+                    <ul>
+                        <li>पाइप फिटिंग और लेआउट बनाना</li>
+                        <li>नल और वाल्व की मरम्मत</li>
+                        <li>हॉट एंड कोल्ड वॉटर सिस्टम</li>
+                        <li>पीवीसी और जीआई पाइप की वेल्डिंग/जॉइनिंग</li>
+                        <li>ब्लूप्रिंट और ड्राइंग पढ़ना</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="section-title">प्रमुख उपकरण (Tools)</h3>
+                    <ul>
+                        <li>Pipe Wrench (पाइप रिंच)</li>
+                        <li>Hacksaw (आरी)</li>
+                        <li>Thread Cutter (थ्रेड कटर)</li>
+                        <li>Plunger (प्लन्जर)</li>
+                        <li>Pipe Bender (पाइप बेंडर)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <a href="index.html" class="apply-btn">अभी एडमिशन लें</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
